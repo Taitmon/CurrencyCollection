@@ -18,13 +18,7 @@ class CurrencyCollectionTest
         currencyCollection = new CurrencyCollection(10, 5, 3, 2);
     }
 
-    @AfterEach
-    void tearDown()
-    {
-
-    }
-
-    @Test
+/*    @Test
     void addPenny()
     {
         currencyCollection.addPenny(1900);
@@ -162,5 +156,5 @@ class CurrencyCollectionTest
         currencyCollection.addQuarter(2008);
 
         assertEquals(new BigDecimal("11.99"), currencyCollection.getCollectibleValue());
-    }
+    }*/
 }
