@@ -15,7 +15,7 @@ public class Main
         final int nickelCount = 3;
         final int pennyCount = 2;
 
-        /*
+
         CurrencyCollection currencyCollection = new CurrencyCollection(quarterCount, dimeCount, nickelCount, pennyCount);
 
         System.out.println("Let's take a look at the value of your new currency collection.");
@@ -66,7 +66,7 @@ public class Main
 
         System.out.println("Pennies have total face value of " + currencyCollection.getPenniesFaceValue());
         System.out.println("Pennies have total collectible value of " + currencyCollection.getPenniesCollectibleValue());
-        */
+
     }
 }
 

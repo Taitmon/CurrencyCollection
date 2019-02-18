@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 class CurrencyCollectionTest
 {
     private static final BigDecimal THREE_SEVENTEEN = new BigDecimal("3.17");
@@ -18,7 +20,7 @@ class CurrencyCollectionTest
         currencyCollection = new CurrencyCollection(10, 5, 3, 2);
     }
 
-/*    @Test
+   @Test
     void addPenny()
     {
         currencyCollection.addPenny(1900);
@@ -156,5 +158,5 @@ class CurrencyCollectionTest
         currencyCollection.addQuarter(2008);
 
         assertEquals(new BigDecimal("11.99"), currencyCollection.getCollectibleValue());
-    }*/
+    }
 }
